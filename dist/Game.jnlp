@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Game.jnlp">
+    <information>
+        <title>Game</title>
+        <vendor>KHK</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Game.jar" size="8534" download="eager"/>
+    </resources>
+    <applet-desc width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback" name="Game">
+        <param name="requiredFXVersion" value="9-ea+"/>
+    </applet-desc>
+    <jfx:javafx-desc width="800" height="600" main-class="Game_Ass" name="Game"/>
+</jnlp>
+
